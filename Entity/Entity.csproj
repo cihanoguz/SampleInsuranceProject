@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
+  <ItemGroup>
+    <None Remove="Customer\" />
+    <None Remove="Policies\" />
+    <None Remove="Customers\" />
+    <None Remove="Logs\" />
+    <None Remove="SystemUsers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Policies\" />
+    <Folder Include="Customers\" />
+    <Folder Include="Logs\" />
+    <Folder Include="SystemUsers\" />
+  </ItemGroup>
+</Project>

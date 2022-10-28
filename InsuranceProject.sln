@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{49CFF97B-8F08-4605-B619-C84A41240CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{8FB0526A-FE57-4688-927D-5DF29B35C64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "Mapping\Mapping.csproj", "{3E908967-E49D-4187-9CB8-CB253E173FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6A466AB8-A328-44F2-A8D6-4668F9C413D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{61B74F47-6426-4D19-8935-39767AADF5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{0E29F36B-1E9B-46F0-AD0A-25CE7A354BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{C73C13EA-5F86-446A-AEFD-E19DE071DBD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49CFF97B-8F08-4605-B619-C84A41240CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CFF97B-8F08-4605-B619-C84A41240CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CFF97B-8F08-4605-B619-C84A41240CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CFF97B-8F08-4605-B619-C84A41240CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB0526A-FE57-4688-927D-5DF29B35C64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB0526A-FE57-4688-927D-5DF29B35C64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB0526A-FE57-4688-927D-5DF29B35C64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB0526A-FE57-4688-927D-5DF29B35C64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E908967-E49D-4187-9CB8-CB253E173FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E908967-E49D-4187-9CB8-CB253E173FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E908967-E49D-4187-9CB8-CB253E173FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E908967-E49D-4187-9CB8-CB253E173FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A466AB8-A328-44F2-A8D6-4668F9C413D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A466AB8-A328-44F2-A8D6-4668F9C413D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A466AB8-A328-44F2-A8D6-4668F9C413D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A466AB8-A328-44F2-A8D6-4668F9C413D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B74F47-6426-4D19-8935-39767AADF5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B74F47-6426-4D19-8935-39767AADF5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B74F47-6426-4D19-8935-39767AADF5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B74F47-6426-4D19-8935-39767AADF5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E29F36B-1E9B-46F0-AD0A-25CE7A354BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E29F36B-1E9B-46F0-AD0A-25CE7A354BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E29F36B-1E9B-46F0-AD0A-25CE7A354BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E29F36B-1E9B-46F0-AD0A-25CE7A354BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73C13EA-5F86-446A-AEFD-E19DE071DBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73C13EA-5F86-446A-AEFD-E19DE071DBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73C13EA-5F86-446A-AEFD-E19DE071DBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73C13EA-5F86-446A-AEFD-E19DE071DBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67C66250-BD0B-4F24-B7B1-999D60AE036F}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-html
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = text/x-web
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/x-vs
+		$0.TextStylePolicy = $8
+		$8.inheritsSet = null
+		$8.scope = text/x-json
+		$0.StandardHeader = $9
+	EndGlobalSection
+EndGlobal
